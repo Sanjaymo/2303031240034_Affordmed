@@ -49,6 +49,40 @@ http://localhost:3000/
 npm run build
 ```
 
+## Stage 2 Frontend
+
+Stage 2 is implemented inside this React application.
+
+The app includes:
+
+- An `All Notifications` tab to display notifications from the API.
+- A `Priority Notifications` tab to display top `n` important notifications.
+- Type filtering for `All`, `Placement`, `Result`, and `Event`.
+- Pagination support using `page` and `limit`.
+- Priority limit control for top `5`, `10`, `15`, or `20` notifications.
+- New/viewed notification tracking using browser `localStorage`.
+- `Mark viewed` and `Mark all viewed` actions.
+- Logging for API requests, fallback usage, and viewed notification actions.
+- Material UI components only for styling.
+
+Run Stage 2:
+
+```powershell
+npm run dev
+```
+
+Then open:
+
+```text
+http://localhost:3000/
+```
+
+Stage 2 demo video:
+
+```text
+../screenshots/Stage2-Demo-Video.mp4
+```
+
 ## Screenshots and Video
 
 Submission media is available in the repository root `screenshots` folder:
