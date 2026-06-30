@@ -49,6 +49,14 @@ http://localhost:3000/
 npm run build
 ```
 
+## Screenshots and Video
+
+Submission media is available in the repository root `screenshots` folder:
+
+- `screenshots/Stage1-Code-Output.png`
+- `screenshots/Stage2_DisplayWebsite.png`
+- `screenshots/Stage2-Demo-Video.mp4`
+
 ## Stage 1 Script
 
 Run the priority notification script with sample notifications:
